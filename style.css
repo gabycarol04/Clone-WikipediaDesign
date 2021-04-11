@@ -1,0 +1,23 @@
+:root{
+    --font-size-p: 1.3rem;
+}
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
+    font-size: 1.8rem;
+    font-size: var("--font-size-p");
+}
+/*Main*/
+main section{
+    height: 300px;
+    background-color: coral;
+    text-align: center;
+}
+/*Footer*/
