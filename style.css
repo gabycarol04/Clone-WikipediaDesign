@@ -11,8 +11,15 @@ html{
 }
 body{
     font-family: BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
     font-size: var("--font-size-p");
+}
+/*Sprites utilizados en todo el sitio web*/
+.sprite{
+    background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg");
+    background-repeat: no-repeat;
+    bac
+    display: inline-block;
 }
 /*Main*/
 main section{
@@ -20,4 +27,50 @@ main section{
     background-color: coral;
     text-align: center;
 }
-/*Footer*/
+/*Footer Description*/
+footer .footer-description{
+    background-color: cornflowerblue;
+}
+footer .footer-description .footer-description-img{
+    width: 42px;
+    height: 42px;
+    background-position: 0 -212px;
+    background-color: rgb(183, 246, 124);
+}
+/*Footer Download*/
+footer .footer-wikipedia-download{
+    background-color: darkkhaki;
+}
+footer .footer-wikipedia-download .footer-download-img{
+    width: 42px;
+    height: 42px;
+    background-position: 0 -719px;
+    background-color: rgb(183, 246, 124);
+}
+footer .footer-wikipedia-download .download-img-google{
+    width: 124px;
+    height: 36px;
+    background-position: 0 -542px;
+    background-color: rgb(183, 246, 124);
+}
+footer .footer-wikipedia-download .download-img-apple{
+    width: 110px;
+    height: 36px;
+    background-position: 0 -580px;
+    background-color: rgb(183, 246, 124);
+}
+/*Footer Apps*/
+/* footer .footer-wikipedia-apps{
+    
+} */
+/*Footer Politics*/
+footer .footer-politics{
+    text-align: center;
+}
+footer .footer-politics a{
+    text-decoration: none;
+}
+footer .footer-politics a.next-politic::after{
+    content: "\2022";
+    margin: 0 5px;
+}
