@@ -18,14 +18,124 @@ body{
 .sprite{
     background-image: url("https://www.wikipedia.org/portal/wikipedia.org/assets/img/sprite-d7502d35.svg");
     background-repeat: no-repeat;
-    bac
     display: inline-block;
 }
 /*Main*/
-main section{
-    height: 300px;
+.main{
+    padding-top: 50px;
+    height: auto;
     background-color: coral;
+}
+/*main-wiki*/
+main .main-wiki{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(163, 216, 241);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+/*wiki-logo*/
+.main .main-wiki .wiki-logo{
+    order: 1;
+}
+.main .main-wiki .wiki-logo .wiki-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-title-container{
     text-align: center;
+}
+/*Logo - img/title */
+main .main-wiki .wiki-img-container img{
+    width: 60px;
+}
+main .main-wiki .main-title-container .main-title-img{
+    width: 176px;
+    height: 31px;
+    background-position: 0 -255px;
+    display: block;
+}
+main .main-wiki .main-title-container .main-subtitle{
+    font-family: Linux Libertine, Georgia, Times, serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+/*wiki-search*/
+main .main-wiki .wiki-search{
+    order: 2;
+    /* background-color: brown; */
+    width: 95vw;
+    max-width: 450px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+main .main-wiki .wiki-search .wiki-search-container{
+    display: flex;
+    justify-content: center;
+    /* background-color: blueviolet; */
+    height: 45px;
+}
+main .main-wiki .wiki-search .wiki-search-container .wiki-search-input{
+    width: 100%;
+}
+main .main-wiki .wiki-search .wiki-search-container .wiki-search-idiom{
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: sandybrown; */
+}
+main .main-wiki .wiki-search .wiki-search-idiom .wiki-search-idiom-arrow{
+    height: 11px;
+    width: 13px;
+    background-position: 0 -519px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    /* background-color: seagreen; */
+}
+main .main-wiki .wiki-search .wiki-search-container .wiki-search-button{
+    width: 55px;
+    background-color: #3366cc;
+    background-image: url("./assets/icon/wiki-lupa.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+/*wiki-idiom*/
+main .main-wiki .wiki-idiom{
+    order: 3;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 450px;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item{
+    width: 33.33%;
+    height: 75px;
+    min-width: 90px;
+    text-align: center;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item a.main-idiom-link{
+    text-decoration: none;
+}
+/*wiki-select*/
+main .main-wiki .wiki-select{
+    order: 4;
+    background-color: violet;
+    height: 60px;
+    width: 100px;
+}
+
+/*main-apps*
+/
+/*Footer Container*/
+.footer{
+    display: flexbox;
 }
 /*Footer Description*/
 footer .footer-description{
@@ -66,6 +176,11 @@ footer .footer-wikipedia-download .download-img-apple{
 /*Footer Politics*/
 footer .footer-politics{
     text-align: center;
+    background-color: deepskyblue;
+    padding: 40px 15px 25px;
+}
+footer .footer-politics p.license{
+    font-weight: 400;
 }
 footer .footer-politics a{
     text-decoration: none;
@@ -74,3 +189,10 @@ footer .footer-politics a.next-politic::after{
     content: "\2022";
     margin: 0 5px;
 }
+
+footer .footer-description{
+    order: 2;
+}
+footer .footer-wikipedia-download{
+    order: 1;
+} 
