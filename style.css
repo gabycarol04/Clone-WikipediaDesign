@@ -24,16 +24,15 @@ body{
 .main{
     padding-top: 50px;
     height: auto;
-    background-color: coral;
+    /* background-color: coral; */
 }
 /*main-wiki*/
 main .main-wiki{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(163, 216, 241);
-    padding-left: 15px;
-    padding-right: 15px;
+    /* background-color: rgb(163, 216, 241); */
+    padding: 0 15px 30px;
 }
 /*wiki-logo*/
 .main .main-wiki .wiki-logo{
