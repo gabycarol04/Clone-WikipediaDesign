@@ -111,7 +111,8 @@ main .main-wiki .wiki-search .wiki-search-idiom .wiki-search-idiom-arrow{
 }
 main .main-wiki .wiki-search .wiki-search-container .wiki-search-button{
     width: 70px;
-    border-radius: 3px;
+    border-top-right-radius: 2px;
+    border-top-left-radius: 2px;
     background-color: #36c;
     background-image: url("./assets/icon/wiki-lupa.png");
     background-repeat: no-repeat;
