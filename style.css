@@ -75,9 +75,23 @@ main .main-wiki .wiki-search .wiki-search-container{
     justify-content: center;
     /* background-color: blueviolet; */
     height: 45px;
+    border: 1px solid #dcdee1;
+    border-radius: 3px;
+    /* outline: #3366cc; */
+}
+main .main-wiki .wiki-search .wiki-search-container:hover{
+    /* box-shadow: 0 1px 6px 0 #20212447; */
+    border-color: #a6aaad;
+    cursor: pointer;
+}
+main .main-wiki .wiki-search .wiki-search-container:focus-within{
+    border-color: #36c;
 }
 main .main-wiki .wiki-search .wiki-search-container .wiki-search-input{
     width: 100%;
+    margin-left: 10px;
+    border: none;
+    outline: none;
 }
 main .main-wiki .wiki-search .wiki-search-container .wiki-search-idiom{
     width: 80px;
@@ -96,12 +110,16 @@ main .main-wiki .wiki-search .wiki-search-idiom .wiki-search-idiom-arrow{
     /* background-color: seagreen; */
 }
 main .main-wiki .wiki-search .wiki-search-container .wiki-search-button{
-    width: 55px;
-    background-color: #3366cc;
+    width: 70px;
+    border-radius: 3px;
+    background-color: #36c;
     background-image: url("./assets/icon/wiki-lupa.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20px;
+}
+main .main-wiki .wiki-search .wiki-search-container .wiki-search-button:hover{
+    background-color: #447ff5;
 }
 /*wiki-idiom*/
 main .main-wiki .wiki-idiom{
@@ -118,6 +136,11 @@ main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item{
     height: 75px;
     min-width: 90px;
     text-align: center;
+    background-color: red;
+    padding: 5px;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item .main-idiom-link{
+    background-color: cornflowerblue;
 }
 main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item a.main-idiom-link{
     text-decoration: none;
@@ -126,10 +149,22 @@ main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item a.main-idiom-
 main .main-wiki .wiki-select{
     order: 4;
     background-color: violet;
-    height: 60px;
-    width: 100px;
+    height: 35px;
+    width: auto;
 }
-
+main .main-wiki .wiki-select .wiki-select-container{
+    display: flex;
+}
+main .main-wiki .wiki-select .wiki-select-container .wiki-select-container-button{
+    /* background-color: red;
+    height: 400px;  */
+}
+main .main-wiki .wiki-select .wiki-select-container-divider{
+    height: 1px;
+    width: 80%;
+    max-width: 80px;
+    background-color: #c8ccd1;
+}
 /*main-apps*
 /
 /*Footer Container*/
