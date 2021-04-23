@@ -1,6 +1,3 @@
-:root{
-    --font-size-p: 1.3rem;
-}
 *{
     box-sizing: border-box;
     padding: 0;
@@ -12,7 +9,7 @@ html{
 body{
     font-family: BlinkMacSystemFont, Segoe UI, Roboto, Lato, Helvetica, Arial, sans-serif;
     font-size: 1.3rem;
-    font-size: var("--font-size-p");
+    color: #54595d;
 }
 /*Sprites utilizados en todo el sitio web*/
 .sprite{
@@ -60,6 +57,7 @@ main .main-wiki .main-title-container .main-subtitle{
     font-family: Linux Libertine, Georgia, Times, serif;
     font-size: 1.5rem;
     font-weight: 400;
+    color: #070707;
 }
 /*wiki-search*/
 main .main-wiki .wiki-search{
@@ -85,7 +83,7 @@ main .main-wiki .wiki-search .wiki-search-container:hover{
     cursor: pointer;
 }
 main .main-wiki .wiki-search .wiki-search-container:focus-within{
-    border-color: #36c;
+    border: 2px solid #36c;
 }
 main .main-wiki .wiki-search .wiki-search-container .wiki-search-input{
     width: 100%;
@@ -141,6 +139,8 @@ main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item{
 }
 main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item:hover{
     background-color: #eaecf0;
+    /* text-decoration: underline; */
+    color: #36c;
 }
 main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item strong{
     display: block;
@@ -149,6 +149,7 @@ main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item strong{
 }
 main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item p{
     color: #54595d;
+    text-decoration: none;
 }
 main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item a.main-idiom-link{
     text-decoration: none;
@@ -183,6 +184,7 @@ main .main-wiki .wiki-select .wiki-select-container button strong{
     color: #3366cc;
     position: relative;
     top: -4px;
+    letter-spacing: 0.6px;
 }
 main .main-wiki .wiki-select .wiki-select-container .wiki-select-container-icon{
     display: inline-block;
@@ -216,8 +218,17 @@ main .main-hr{
     margin: auto;
     border: 1px solid #c8ccd1;
 }
-/*main-apps*/
+/*main-about*/
+main .main-about{
+    display: flex;
+    flex-direction: column;
+}
+main .main-about .main-about-foundation, main .main-about .main-about-download, main .main-about .main-about-apps{
+    
+}
+/*foundation*/
 main .main-about .main-about-foundation{
+    order: 1;
     text-align: center;
     margin: 20px 0 20px 0;
     /* background-color: cornflowerblue; */
@@ -228,7 +239,9 @@ main .main-about .main-about-foundation .main-about-foundation-img{
     background-position: 0 -212px;
     /* background-color: rgb(183, 246, 124); */
 }
+/*download*/
 main .main-about .main-about-download{
+    order: 3;
     text-align: center;
     padding: 10px 0 5px 0;
     margin: 0 10px;
@@ -261,6 +274,110 @@ main .main-about .main-about-download .main-about-download-apple{
     background-position: 0 -580px;
     /* background-color: rgb(183, 246, 124); */
 }
+/*Apps*/
+main .main-about .main-about-apps{
+    order: 2;
+}
+main .main-about .main-about-apps .main-about-apps-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-color: teal; */
+    justify-content: space-around;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+main .main-about .main-about-apps .main-about-apps-container .main-apps-items{
+    /* background-color: burlywood; */
+    width: 33.33%;
+    height: auto;
+    min-height: 100px;
+    /* max-width: 240px; */
+    /* margin: 5px; */
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+main .main-about .main-about-apps .main-about-apps-container .main-apps-items:hover{
+    background-color: #eaecf0;
+}
+main .main-about .main-about-apps .main-about-apps-container .main-apps-items:visited{
+    color: #54595d;
+}
+main .main-about .main-about-apps .main-about-apps-container .wiki-idiom-info{
+    /* background-color: rgb(239, 173, 245); */
+}
+main .main-about .main-about-apps .main-about-apps-container .wiki-idiom-info .main-apps-title{
+    color: #36c;
+    display: block;
+}
+main .main-about .main-about-apps .main-about-apps-container .main-apps-img{
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 30px;
+    /* background-color: rgb(183, 246, 124); */
+}
+main .main-about .main-about-apps .main-about-apps-container .app1{
+    width: 42px;
+    height: 48px;
+    background-position: 0 0;
+}
+main .main-about .main-about-apps .main-about-apps-container .app2{
+    width: 42px;
+    height: 37px;
+    background-position: 0 -445px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app3{
+    width: 42px;
+    height: 37px;
+    background-position: 0 -482px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app4{
+    width: 42px;
+    height: 37px;
+    background-position: 0 -128px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app5{
+    background-image: url(https://www.wikipedia.org/portal/wikipedia.org/assets/img/Wikinews-logo_sister@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 42px;
+    height: 37px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app6{
+    width: 42px;
+    height: 26px;
+    background-position: 0 -175px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app7{
+    width: 42px;
+    height: 35px;
+    background-position: 0 -410px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app8{
+    width: 42px;
+    height: 42px;
+    background-position: 0 -286px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app9{
+    width: 42px;
+    height: 42px;
+    background-position: 0 -47px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app10{
+    width: 42px;
+    height: 40px;
+    background-position: 0 -328px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app11{
+    width: 42px;
+    height: 40px;
+    background-position: 0 -368px;
+}
+main .main-about .main-about-apps .main-about-apps-container .app12{
+    width: 42px;
+    height: 37px;
+    background-position: 0 -89px;
+}
 /*-----------------------------------------*/
 /*------FOOTER------*/
 .footer{
@@ -278,10 +395,17 @@ footer .footer-politics p.license{
 }
 footer .footer-politics a{
     text-decoration: none;
+    color: #36c;
+}
+footer .footer-politics a:hover{
+    text-decoration: underline;
 }
 footer .footer-politics a.next-politic::after{
     content: "\2022";
     margin: 0 5px;
+}
+footer .footer-politics a.next-politic:hover::after{
+    text-decoration: none;
 }
 
 footer .footer-description{
