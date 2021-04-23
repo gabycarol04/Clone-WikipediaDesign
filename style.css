@@ -129,19 +129,26 @@ main .main-wiki .wiki-idiom{
 main .main-wiki .wiki-idiom .wiki-idiom-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
     max-width: 450px;
+    /* background-color: blanchedalmond; */
 }
 main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item{
     width: 33.33%;
-    height: 75px;
+    padding: 10px 25px;
     min-width: 90px;
     text-align: center;
-    background-color: red;
-    padding: 5px;
+    /* background-color: yellow; */
 }
-main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item .main-idiom-link{
-    background-color: cornflowerblue;
+main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item:hover{
+    background-color: #eaecf0;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item strong{
+    display: block;
+    margin-bottom: 5px;
+    color: #3366cc;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item p{
+    color: #54595d;
 }
 main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item a.main-idiom-link{
     text-decoration: none;
