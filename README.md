@@ -3,6 +3,6 @@ Desarrollo del diseño utilizado en el home de Wikipedia con HTML 5 y CSS3. Para
 
 <h2>Móvil</h2>
 
-##Tablet
+<h2>Tablet</h2>
 
-##Escritorio
+<h2>Escritorio</h2>
