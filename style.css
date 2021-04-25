@@ -76,6 +76,7 @@ main .main-wiki .wiki-search .wiki-search-container{
     border: 1px solid #dcdee1;
     border-radius: 3px;
     /* outline: #3366cc; */
+    margin-left: 15px;
 }
 main .main-wiki .wiki-search .wiki-search-container:hover{
     /* box-shadow: 0 1px 6px 0 #20212447; */
