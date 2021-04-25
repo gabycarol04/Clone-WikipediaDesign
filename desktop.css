@@ -1,0 +1,25 @@
+main .main-about{
+    height: 370px;
+    padding: 20px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+main .main-about .main-about-foundation{
+    width: 40%;
+}
+main .main-about .main-about-download{
+    order: 2;
+    width: 40%;
+}
+main .main-about .main-about-apps{
+    order: 3;
+    width: 60%;
+    position: absolute;
+    left: 40%;
+    max-width: 900px;
+}
+@media (min-width: 1500px) {
+    main .main-about .main-about-apps{
+        left: calc(40% + 70px);
+    }
+}
