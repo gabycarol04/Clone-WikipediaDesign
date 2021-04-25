@@ -3,6 +3,7 @@ Desarrollo del diseño utilizado en el home de Wikipedia con HTML 5 y CSS3. Para
 
 <h2>Móvil</h2>
 ![diseño para móvil](https://raw.githubusercontent.com/gabycarol04/Clone-WikipediaDesign/master/assets/screenshots/MobileLayout.png)
+![diseño para móvil](assets/screenshots/MobileLayout.png)
 
 <h2>Tablet</h2>
 ![diseño para tablet](https://raw.githubusercontent.com/gabycarol04/Clone-WikipediaDesign/master/assets/screenshots/TabletLayout.png)
