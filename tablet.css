@@ -1,0 +1,63 @@
+/*Logo*/
+main .main-wiki .wiki-img-container{
+    display: none;
+}
+
+/*Container*/
+main .main-wiki .wiki-search{
+    order: 3;
+}
+main .main-wiki .wiki-idiom{
+    order: 2;
+    margin-top: 30px;
+}
+
+/*Idioms*/
+main .main-wiki .wiki-idiom .wiki-idiom-container{
+    display: inline-block;
+    /* display: flex;
+    flex-wrap: wrap; */
+    max-width: 450px;
+    /* background-color: blanchedalmond; */
+}
+main .main-wiki .wiki-idiom{
+    background-image: url(https://upload.wikimedia.org/wikipedia/en/8/80/Wikipedia-logo-v2.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 180px;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .wiki-idiom-item{
+    padding: 10px;
+    display: inline-block;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-1{
+    position: relative;
+    left: 5%;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-2, main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-10{
+    position: relative;
+    left: 25%;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-3{
+    position: relative;
+    right: 5%;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-4, main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-8{
+    position: relative;
+    left: 35%;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-5{
+    position: relative;
+    right: 8%;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-6{
+    position: relative;
+    left: 39%;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-7{
+    position: relative;
+}
+main .main-wiki .wiki-idiom .wiki-idiom-container .idiom-item-9{
+    position: relative;
+    left: 10%;
+}
