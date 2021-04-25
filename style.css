@@ -247,6 +247,7 @@ main .main-about .main-about-download{
     margin: 0 10px;
     border-radius: 2px;
     background-color: #f8f9fa;
+    margin-top: 20px;
     /* margin: 20px 0 20px 0; */
 }
 main .main-about .main-about-download .main-about-download-img{
@@ -293,7 +294,7 @@ main .main-about .main-about-apps .main-about-apps-container .main-apps-items{
     min-height: 100px;
     /* max-width: 240px; */
     /* margin: 5px; */
-    padding: 20px;
+    padding: 10px;
     text-decoration: none;
     border-radius: 2px;
 }
@@ -313,12 +314,12 @@ main .main-about .main-about-apps .main-about-apps-container .wiki-idiom-info .m
 main .main-about .main-about-apps .main-about-apps-container .main-apps-img{
     float: left;
     margin-right: 5px;
-    margin-bottom: 30px;
     /* background-color: rgb(183, 246, 124); */
 }
 main .main-about .main-about-apps .main-about-apps-container .app1{
     width: 42px;
     height: 48px;
+    margin-bottom: 30px;
     background-position: 0 0;
 }
 main .main-about .main-about-apps .main-about-apps-container .app2{
@@ -377,6 +378,7 @@ main .main-about .main-about-apps .main-about-apps-container .app12{
     width: 42px;
     height: 37px;
     background-position: 0 -89px;
+    margin-bottom: 30px;
 }
 /*-----------------------------------------*/
 /*------FOOTER------*/
@@ -414,3 +416,11 @@ footer .footer-description{
 footer .footer-wikipedia-download{
     order: 1;
 } 
+
+
+/*RESPONSIVE*/
+@media (max-width: 480px){
+    main .main-about .main-about-apps .main-about-apps-container .main-apps-items{
+        width: 50%;
+    }
+}
