@@ -5,7 +5,7 @@ Desarrollo del diseño utilizado en el home de Wikipedia con HTML 5 y CSS3. Para
 - [Curso Práctico de HTML y CSS](https://platzi.com/clases/html-practico/)
 - [Certificado del curso](https://platzi.com/p/gabycarol04/curso/1758-html-practico/diploma/detalle/)
 
-## Diseño Responsive
+## Diseño Responsive (Layout Shifter)
 ### Móvil
 <img src="assets/screenshots/MobileLayout.png">
 
